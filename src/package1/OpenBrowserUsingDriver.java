@@ -37,6 +37,7 @@ public class OpenBrowserUsingDriver {
         Thread.sleep(3000);
         driver.manage().window().setSize(new Dimension(1200,900));
         System.out.println(driver.manage().window().getSize());
+        System.out.println("Added by Kishan");
 
 
 
